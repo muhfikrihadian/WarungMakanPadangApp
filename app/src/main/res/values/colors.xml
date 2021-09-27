@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorText">#252525</color>
+    <color name="colorTextHint">#c1c0c0</color>
+    <color name="white">#ffffff</color>
+    <color name="buttonjumlah">#276e34</color>
+    <color name="buttonSend">#1eb600</color>
+    <color name="primer">#123A4A</color>
+    <color name="overlayBackground">#7f333639</color>
+    <color name="overlayActionBar">#0e0d0e</color>
+    <color name="black">#000000</color>
+    <color name="Buttonred">#ED1919</color>
+    <color name="backgroundCardView">#259AA1A0</color>
+    <color name="warnaputih">#FFFFFF</color>
+    <color name="texthitam">#000000</color>
+    <color name="colorfav">#011A3B</color>
+    <color name="colorfav2">#FFE478</color>
+    <color name="ColorGrey">#4C4C4C</color>
+    <color name="ColorBlue">#3498DB</color>
+    <color name="ColorRed">#FF0000</color>
+    <color name="ColorTransparent">@android:color/transparent</color>
+</resources>

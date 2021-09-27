@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Sellers.SellerAddNewProductActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Menu"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/select_product_image"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginLeft="40dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_insert_photo" />
+
+                <TextView
+                    android:id="@+id/upload"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="60dp"
+                    android:layout_toRightOf="@+id/select_product_image"
+                    android:text="Upload Foto Menu"
+                    android:textSize="25sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/pixels"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/upload"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="142dp"
+                    android:text="494 x 620px"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+
+            <EditText
+                android:id="@+id/product_name"
+                android:layout_width="290dp"
+                android:layout_height="60dp"
+                android:inputType="textPersonName"
+                android:hint="Nama Menu"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:background="@drawable/input_desain"
+                android:layout_marginTop="40dp" />
+
+            <EditText
+                android:id="@+id/product_description"
+                android:layout_width="290dp"
+                android:layout_height="60dp"
+                android:hint="Deskripsi Menu"
+                android:inputType="textMultiLine"
+                android:background="@drawable/input_desain"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_below="@id/product_name"
+                android:layout_marginTop="20dp" />
+
+            <EditText
+                android:id="@+id/product_price"
+                android:layout_width="290dp"
+                android:layout_height="60dp"
+                android:inputType="number"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:background="@drawable/input_desain"
+                android:hint="Harga"
+                android:layout_below="@id/product_description"
+                android:layout_marginTop="20dp"
+                />
+
+            <Button
+                android:id="@+id/add_new_product"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:text="ADD"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:layout_below="@id/product_price"
+                android:background="@drawable/rounded_shape" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

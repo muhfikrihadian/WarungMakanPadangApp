@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "445813439412",
+    "firebase_url": "https://padang-order-food-509d4-default-rtdb.firebaseio.com",
+    "project_id": "padang-order-food-509d4",
+    "storage_bucket": "padang-order-food-509d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:445813439412:android:ffc22a14bbaefaa5ab10e1",
+        "android_client_info": {
+          "package_name": "com.example.stolovapadangorderfood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "445813439412-u37qqkbtd51tetcecmgd12s5iauksed9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.stolovapadangorderfood",
+            "certificate_hash": "c443aee472ab942e7274bf85b3b6812a91623b6d"
+          }
+        },
+        {
+          "client_id": "445813439412-k5qorsthn5bvnegm3k1ibn3hsuju1e3t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNscGPOu6Qe1h9VZJ9JnKXRZxXu38ptZI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "445813439412-k5qorsthn5bvnegm3k1ibn3hsuju1e3t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
